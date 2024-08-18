@@ -6,7 +6,6 @@ import uglify from 'gulp-uglify';
 import rename from 'gulp-rename';
 import filter from 'gulp-filter';
 import path from 'path';
-import fs from 'fs';
 import del from 'del';
 
 const sass = gulpSass(dartSass);
