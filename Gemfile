@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'github-pages'
+gem "jekyll", "~> 3.10.0"
+gem "github-pages", "~> 232"

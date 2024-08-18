@@ -1,5 +1,6 @@
 # Base configs
-baseurl: "https://photos.mobeigi.com"
+#baseurl: "https://photos.mobeigi.com"
+baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "G-41ZEE01DTM"
@@ -17,6 +18,7 @@ footer:
  name: "Hi, I'm Mo"
  bio: "I am a photography and colouring hobbyist."
  github: ""
+
 social_urls:
   facebook: null
   twitter: null
@@ -24,3 +26,7 @@ social_urls:
   dribbble: null
   linkedin: null
   github: null
+
+# Configure which exif data to display
+# Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
+exif: '[{"tag": "Model", "icon": "fa fa-camera-retro"}, {"tag": "FNumber", "icon": "far fa-dot-circle"}, {"tag": "ExposureTime", "icon": "far fa-clock"}, {"tag": "ISOSpeedRatings", "icon": "fa fa-info-circle"}]'
